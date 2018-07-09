@@ -1,0 +1,5 @@
+# Maven cruft
+target
+.classpath
+.settings
+.project
