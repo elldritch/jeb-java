@@ -8,3 +8,7 @@ $(JEB_JAR): $(JAVA_SOURCES) pom.xml
 .PHONY: run
 run: $(JEB_JAR)
 	java -cp $(JEB_JAR):$(MAVEN_CLASSPATH) io.github.ilikebits.jeb.App
+
+.PHONY: clean
+clean:
+	mvn clean
